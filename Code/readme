@@ -1,7 +1,24 @@
--- Running Environment 
-    Windows 11, Matlab 2021b
+-- Running Environment: Matlab r2021b
     
 -- 'dat2mat.m': Extract the CSI amplitude from the raw .dat file and save them as the .mat file.
     * Parameters: You can define the number of spatial streams and packets to be extracted.
     * The corresponding file path need to be modified according to the raw data path and saved data path.
--- 
+    
+-- 'creatTrainRawSet.m': Combine the saved .mat files into the raw data set.
+    * File path and names needs to be customized.
+
+-- 'pcaCSI.m': Apply PCA to the raw data set.
+    * File path and names needs to be customized.
+    * Outliers need to be removed prior to PCA.
+-- 'trianLSTM.m': Dataset construction and LSTM network training
+
+-- 'saveStaticDataOfTestData.m': Perform MSV operations on all test data and extract the stationary state data and save them as .mat file.
+    * The 'test' folder contains the following folders：P1,P2,...,P9,10,11,...
+    * The threshold value in Equation (4) can be adjusted according to the your data.
+    
+-- 'testDataPer.m': Process the saved test .mat data and combine all data belonging to a person into one file.
+    * File path and names needs to be customized.
+    * The numbers in the idList represent the labels of different people, which need to be defined according to the order of your folders.
+    
+-- 'prediction.m': Construct the test set and use the trained network to make predictions and output the accuracy and confusion matrix.
+
