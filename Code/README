@@ -1,4 +1,4 @@
--- Running Environment: Matlab r2021b
+-- Running Environment: Matlab r2021b. Requires the functions in linux-80211n-csitool-supplementary (https://github.com/dhalperi/linux-80211n-csitool-supplementary/tree/master/matlab)
     
 -- 'dat2mat.m': Extract the CSI amplitude from the raw .dat file and save them as the .mat file.
     * Parameters: You can define the number of spatial streams and packets to be extracted.
