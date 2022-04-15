@@ -6,12 +6,14 @@ load xxx.mat; % load .mat data
 
 A_csi = [csi1;csi2;csi3;csi4;csi5;csi6;csi7;csi8];
 
+% Outlier Removal
 z=isinf(A_csi);
 [inf_r, inf_c]=find(z==1);
 A_csi(inf_r,:)=[100];
 
 A_csi = hampel(A_csi,4);
 
+% PCA
 [coeff,score,latent,~,explained,mu] = pca(A_csi);
 figure;
 x=(1:1:270);
