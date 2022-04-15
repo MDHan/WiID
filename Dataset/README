@@ -2,5 +2,22 @@ Due to file size limitation, the dataset has been uploaded to Ali CloudDisk and 
 - Ali CloudDisk: https://www.aliyundrive.com/s/BCbMtZrn7Q6
 - Google CloudDisk: https://drive.google.com/drive/folders/1KsJRUdgUS9ItwAB3D6VVY6E7Ht6DH3Co?usp=sharing
 
-The dataset contains WiFi CSI data from three environments (Env1: Square; Env2: Corridor; Env3: Office).
+Data Collection:
+  -Hardware: 2*ThinkPad T400, 2*Inter 5300 wireless NIC, 6*external omnidirectional antennas
+  -Software: Ubuntu 14.04 LTS, CSI Tool (https://github.com/dhalperi/linux-80211n-csitool.git)
+  -Parameters: 
+        Model: Monitor mode
+        Channel: 64
+        Frequency: 5.32 GHz
+        Transmission rate: 1000 Hz
+        Number of transmitting antennas: 3
+        Number of receiving antennas: 3
+        Number of spatial stream: 3*3=9
+        Number of subcarriers per spatial stream: 30
 
+The dataset contains WiFi CSI data (.dat format) from three environments (Env1: Square; Env2: Corridor; Env3: Office).
+We collected data from 7 individuals in both environment 1 and environment 2, and from 14 individuals in environment 3.
+During the collection of training data, volunteers were asked to be stationary at the midpoint of the LoS.
+During the collection of testing data, the volunteer can walk along or vertical to the LoS, but the volunteer’s walking path should contain the midpoint of the LoS for segmenting the valid bio-electromagnetic information.
+        
+        
