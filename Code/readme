@@ -1,1 +1,7 @@
-
+-- Running Environment 
+    Windows 11, Matlab 2021b
+    
+-- 'dat2mat.m': Extract the CSI amplitude from the raw .dat file and save them as the .mat file.
+    * Parameters: You can define the number of spatial streams and packets to be extracted.
+    * The corresponding file path need to be modified according to the raw data path and saved data path.
+-- 
