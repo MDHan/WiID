@@ -9,8 +9,9 @@
 
 -- 'pcaCSI.m': Apply PCA to the raw data set.
     * File path and names needs to be customized.
-    * Outliers need to be removed prior to PCA.
--- 'trianLSTM.m': Dataset construction and LSTM network training
+    * Outliers need to be removed prior to PCA. 
+    
+-- 'trianLSTM.m': Dataset construction and LSTM network training.
 
 -- 'saveStaticDataOfTestData.m': Perform MSV operations on all test data and extract the stationary state data and save them as .mat file.
     * The 'test' folder contains the following folders：P1,P2,...,P9,10,11,...
