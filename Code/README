@@ -1,6 +1,6 @@
 Environment: 
-    Matlab R2021b. 
-    Require the functions in linux-80211n-csitool-supplementary (https://github.com/dhalperi/linux-80211n-csitool-supplementary/tree/master/matlab)
+    * Windows 11, Matlab R2021b
+    * Require the functions in linux-80211n-csitool-supplementary (https://github.com/dhalperi/linux-80211n-csitool-supplementary/tree/master/matlab)
   
 Scripts:
 -'dat2mat.m': 
