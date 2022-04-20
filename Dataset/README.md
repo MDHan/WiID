@@ -20,9 +20,9 @@ The links are as follows:
         Number of spatial stream: 3*3=9
         Number of subcarriers per spatial stream: 30
 
-# The dataset contains WiFi CSI data (.dat format) from three environments (Env1: Square; Env2: Corridor; Env3: Office).
+The dataset contains WiFi CSI data (.dat format) from three environments (Env1: Square; Env2: Corridor; Env3: Office).
 
-# We collected data from 7 individuals in both environment 1 and environment 3, and from 14 individuals in environment 2.
+We collected data from 7 individuals in both environment 1 and environment 3, and from 14 individuals in environment 2.
 
 During the collection of training data, volunteers were asked to be stationary at the midpoint of the LoS.
 During the collection of testing data, the volunteer can walk along or vertical to the LoS, but the volunteer's walking path should contain the midpoint of the LoS for segmenting the valid bio-electromagnetic information.
