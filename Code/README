@@ -1,8 +1,8 @@
-Environment: 
+1. Environment: 
     * Windows 11, Matlab R2021b
     * Require the functions in linux-80211n-csitool-supplementary (https://github.com/dhalperi/linux-80211n-csitool-supplementary/tree/master/matlab)
   
-Scripts:
+2. Scripts:
 -'dat2mat.m': 
     Extract the CSI amplitude from the raw .dat file and save them as the .mat file.
     * Parameters: You can define the number of spatial streams and packets to be extracted.
@@ -27,7 +27,7 @@ Scripts:
 -'prediction.m': 
     Construct the test set and use the trained network to make predictions and output the accuracy and confusion matrix.    
     
-Functions: 
+3. Functions: 
 -'getAllStreamMat.m':
     * Extracting CSI magnitude from the raw data
     * Input Arguments: 
