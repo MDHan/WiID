@@ -1,4 +1,5 @@
 function [MSV] = SlidingWindowVar(csi_filter, packetNumber, winSize, threshold)
+% Get the MSV of the test data
     n = fix(packetNumber/winSize);
     result = zeros(n, 30);
     for i = 1:30
