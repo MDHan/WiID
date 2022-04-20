@@ -1,4 +1,4 @@
-# Notes
+# Note:
   The dataset is collected with appropriate written informed consent and human subjects approval. 
   The dataset is fully open for reviewers to evaluate our work during the review period. After the review is completed, the researchers need to email us (mingdahan@outlook.com) and sign the copyright form for non-commercial scientific research.
 
