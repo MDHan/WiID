@@ -3,9 +3,7 @@
   The dataset is fully open for reviewers to evaluate our work during the review period. After the review is completed, the researchers need to email us (mingdahan@outlook.com) and sign the copyright form for non-commercial scientific research.
 
 # Dataset Download:
-Due to file size limitation, the dataset has been uploaded to Google CloudDisk. 
-The links are as follows:
-  - Google CloudDisk: https://drive.google.com/drive/folders/1KsJRUdgUS9ItwAB3D6VVY6E7Ht6DH3Co?usp=sharing
+For volunteer privacy reasons, to obtain the dataset, please contact me by email.
 
 # Data Collection:
   - Hardware: 2* ThinkPad T400, 2* Inter 5300 wireless NIC, 6* external omnidirectional antennas
